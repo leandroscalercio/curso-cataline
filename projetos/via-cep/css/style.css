@@ -1,0 +1,40 @@
+body {
+  background: #364253;
+  font-family: Arial;
+  ;
+}
+
+#app {
+  background: #e7e7e7;
+  width: 400px;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 30px auto
+ 
+}
+.form {
+  display: block
+}
+
+.form input {
+  padding: 10px;
+  border-radius: 3px;
+  border-style: none;
+}
+
+.form input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.form button {
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 4px;
+  border-style: none;
+  background: lightcoral;
+  color: #e7e7e7;
+  width: 100px;
+  height: 30px;
+
+}

@@ -1,0 +1,11 @@
+Gerando arquivo packge.json = npm init -y
+ Instalando o Json-server =  npm install json-server -d 
+
+Configurando o no packge.json o arquivo para oservar o arquivo db.json na porta 333
+ "scripts": {
+   "dev": "json-server --watch db.json --port 3333"
+  } 
+
+  npm run dev -> Subindo o servidor fake, observando o arquivo db.json na porta 333
+
+  instalando o axios para fazer requições htpp =>  npm i axios
